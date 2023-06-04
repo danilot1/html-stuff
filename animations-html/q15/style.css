@@ -1,0 +1,48 @@
+a {
+    font-size: 24px;
+}
+
+body {}
+
+.circle1 {
+
+    margin-top: 300px;
+    background-color: crimson;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: relative;
+    animation-name: bounce;
+    animation-duration: infinite;
+    transition: all 0.4s;
+    animation: bounce 1s linear infinite;
+    
+}
+
+@keyframes bounce {
+    0% {
+        top: -200px;
+        left: -200px;
+        
+    }
+
+    25% {
+        top: 200px;
+        left: 200px;
+    }
+
+    50% {
+        top: -200px;
+        left: 200px;
+    }
+
+    75% {
+        top: 200px;
+        left: 200px;
+    }
+
+    100% {
+        top: -200px;
+        left: -200px;
+    }
+}

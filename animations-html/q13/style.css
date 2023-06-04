@@ -1,0 +1,58 @@
+a{
+    font-size: 30px;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin: 10px;
+    animation: mover 2s linear infinite;
+    position: relative;
+    animation-delay: 1s;
+}
+
+.box2{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin: 10px;
+    animation: mover 2s linear infinite;
+    position: relative;
+    animation-delay: 3.5s;
+}
+.box3{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin: 10px;
+    animation: mover 2s linear infinite;
+    position: relative;
+    animation-delay: 5.2s;
+}
+
+@keyframes mover {
+    0%{
+        top: 0px;
+    }
+    25%{
+        top: -200px;
+    }
+    50%{
+        top: 0px;
+    }
+    75%{
+       top: 200px; 
+    }
+    100%{
+        top: 0px;
+    }
+}

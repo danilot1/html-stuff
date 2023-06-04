@@ -1,0 +1,17 @@
+a{
+    font-size: 30px;
+}
+.box{
+    margin-top: 300px;
+    background-color: black;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    animation-name: change-local;
+    animation-duration: 3s;
+}
+@keyframes change-local{
+    0%{rotate: 0deg;  }
+    50%{rotate: 45deg;}
+    100%{rotate: 0deg;}
+}

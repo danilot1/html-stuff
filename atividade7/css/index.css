@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+p {
+    font-size: 20px;
+}
+
+img {
+    border-radius: 8px;
+}
+
+spam {
+    background-color: lightblue;
+    color: rgb(31, 86, 104);
+    border-radius: 4px;
+}
+
+
+hr {
+    size: 10;
+    color: green;
+}
+
+.titulo {
+    font-size: 30px;
+    margin-left: auto;
+}
+.tags{
+    width: 50%;
+
+}
+.t1{
+    padding-top: 30px;
+}
+.tags{
+    padding-top: 80px;
+
+}
+h1{
+    text-align: left;
+}

@@ -1,0 +1,18 @@
+a{
+    font-size: 30px;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+.logo{
+    margin-top: 300px;
+    position: relative;
+    animation-name: movimento;
+    animation-duration: 15s;
+}
+@keyframes movimento{
+    0%{right: 0px;}
+    50%{right: 500px;}
+    100%{bottom: 300px; width: 70px; height: 70px;}
+}

@@ -1,0 +1,21 @@
+
+body{
+    background-color: bisque;
+
+}
+h1 {
+    font-size:100px;
+    text-align: center;
+}
+
+.imagens{ 
+     text-align:center;
+
+}
+.lista{
+    font-size:40px;
+   
+}
+li{
+    color: black;
+}

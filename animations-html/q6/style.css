@@ -1,0 +1,52 @@
+a{
+    font-size: 30px;
+}
+.box{
+    margin-top: 300px;
+    background-color: black;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    animation-name: change-local;
+    animation-duration: 3s;
+}
+@keyframes change-local{
+    0%{
+
+        rotate: 0deg;
+        background-color: black;
+    }
+    12.5%{
+        rotate: 45deg;
+        background-color: gray ;
+    }
+    25%{
+        rotate: 90deg;
+        background-color: purple
+    }
+    37.5%{
+        rotate: 135deg;
+        background-color: red;
+    }
+    50%{
+        rotate: 180deg;
+        background-color: violet
+    }
+    62.5%{
+        rotate: 225deg;
+        background-color: palevioletred
+    }
+    75%{
+        rotate: 270deg;
+        background-color: pink
+    }
+    88%{
+        rotate: 315deg;
+        background-color: white
+    }
+    100%{
+        rotate: 360deg;
+        background-color: gray
+    }
+    
+}

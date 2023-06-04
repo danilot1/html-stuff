@@ -1,0 +1,30 @@
+a{
+   font-size: 30px; 
+}
+.circle{
+    margin-top: 300px;
+    background-color: orange;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    animation-name: pulsar;
+    animation-duration: 10s;
+    border-radius: 50%;
+}
+@keyframes pulsar{
+  0%{
+    transform: scale(0.9);
+ }
+ 25%{
+    transform: scale(1);
+ }
+ 50%{
+    transform: scale(0.9)
+ }
+ 75%{
+    transform: scale(1);
+ }
+ 100%{
+    transform: scale(0.9);
+ }
+}

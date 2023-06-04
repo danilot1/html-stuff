@@ -1,0 +1,30 @@
+a{
+    font-size: 30px;
+}
+
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+    background-color: black;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: relative;
+    animation-name: change-color;
+    animation-duration: 6s;
+}
+@keyframes change-color{
+    0%{
+        background-color: black;
+        border-radius: 100%;
+    }
+    50%{
+        background-color: blueviolet;
+    }
+    100%{
+        transform: scale(.5);
+        background-color: blueviolet;
+    }
+}

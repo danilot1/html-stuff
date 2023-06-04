@@ -1,0 +1,21 @@
+a{
+    font-size: 30px;
+}
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+    background-color: black;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: relative;
+    animation-name: change-local;
+    animation-duration: 4s;
+}
+@keyframes change-local{
+    0%{ left: 0px;}
+    50%{left: 500px;}
+    
+}
